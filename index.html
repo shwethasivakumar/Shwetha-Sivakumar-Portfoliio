@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body data-spy="scroll">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
@@ -41,41 +41,40 @@
         </div>
     </nav>
 
-	<section id="home-section" class="hero" style="background-image:url(images/portbjani.gif); height: 100vh;">
-		<div class="home-slider owl-carousel">
-			<div class="slider-item">
-				<div class="overlay"></div>
-				<div class="container-fluid px-md-0">
-					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end">
-						<div class="one-third order-md-last img" style="background-image:url(images/dataanl.jpg); background-size: cover;">
-							<div class="overlay"></div>
-							<div class="overlay-1"></div>
-						</div>
-						<div class="one-forth d-flex align-items-center ftco-animate">
-							<div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-								<div class="about-text">
-									<small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-									<h1 class="animated animated-text">
-										Hey all, I'm
-										<br>
-										<div class="animated-info">
-											<span class="animated-item">Shwetha Sivakumar</span>
-											<span class="animated-item">Software Engineer</span>
-											<span class="animated-item">Data Analyst</span>
-											<span class="animated-item">Mobile App Developer</span>
-										</div>
-									</h1>
-									<br>
-									<p><a href="https://www.linkedin.com/in/shwetha-sivakumar-506482204/" class="btn btn-primary">LinkedIn</a> <a href="images/SS_Resume_2PG.pdf" class="btn btn-primary btn-outline-primary" download="SS_Resume_2PG.pdf">Download CV</a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
+    <section id="home-section" class="hero" style="background-image:url(images/portbjani.gif);">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item">
+                <div class="overlay"></div>
+                <div class="container-fluid px-md-0">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third order-md-last img" style="background-image:url(images/dataanl.jpg); background-size: cover;">
+                            <div class="overlay"></div>
+                            <div class="overlay-1"></div>
+                        </div>
+                        <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                                <div class="about-text">
+                                    <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                                    <h1 class="animated animated-text">
+                                        Hey all, I'm
+                                        <br>
+                                        <div class="animated-info">
+                                            <span class="animated-item">Shwetha Sivakumar</span>
+                                            <span class="animated-item">Software Engineer</span>
+                                            <span class="animated-item">Data Analyst</span>
+                                            <span class="animated-item">Mobile App Developer</span>
+                                        </div>
+                                    </h1>
+                                    <br>
+                                    <p><a href="https://www.linkedin.com/in/shwetha-sivakumar-506482204/" class="btn btn-primary">LinkedIn</a> <a href="images/SS_Resume_2PG.pdf" class="btn btn-primary btn-outline-primary" download="SS_Resume_2PG.pdf">Download CV</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 	
 	<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
